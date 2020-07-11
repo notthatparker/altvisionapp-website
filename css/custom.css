@@ -121,9 +121,7 @@ body.boxed-layout .main, body.boxed-layout .navbar {
   color: rgba(255, 255, 255, 1);
   border-color: rgba(255,255,255,1);
 }
-.theme-royal-blue{
 
-}
 .fill--primary rect,
 .fill--primary path,
 .fill--primary polygon,
@@ -146,6 +144,7 @@ background-color: #000000;}
 .body{
   color:#000000;
   background-color: #000000; 
+  overflow-x: hidden;
 }
 .text-color--700 {
 color:#FFFF;}
@@ -162,9 +161,14 @@ background: #000000;
   text-decoration: aliceblue;
   background: #212121;
 }
+.nav-item:hover{
+  color: #0020FF;
 
+}
 .sticky-bg-color--white .navbar-nav .nav-link, .navbar-light:not(.navbar-sticky--moved-up) .navbar-nav .nav-link {
     color: #ffffff;
+    
+
 }
 /* first button color */
 .btn-bg--cta--4 {

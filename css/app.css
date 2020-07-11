@@ -6040,8 +6040,10 @@ body.boxed-layout .switchable__image {
   border: none !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+          /*
   height: 1rem !important;
   width: 1rem !important;
+  */
   margin: 0 .07em !important;
   vertical-align: -0.1em !important;
   background: none !important;
